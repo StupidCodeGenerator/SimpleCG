@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="CGE.exe" version="1.0.0.0" publicKeyToken="281a6bc003f1e53f" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CGE" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="CGE.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CGE.exe" size="39936">
+      <assemblyIdentity name="CGE" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>H5p4QJGUzD+QKzjN3n6F3OH0TTs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=StupidCodeGener\StupidCodeGenerator" issuerKeyHash="c348ae2debb4a1ff72061133fa0975b1a4ad7748" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>rnABSaT/Y6p9ZbYVo09Rhbl8wgA=</DigestValue></Reference></SignedInfo><SignatureValue>B0/LQrQV2MnvRfGkSBgdqKM/dXoLkjYpT20lRJ8ZThj1V4WOYMOUeTJ510pYraRp9kBpUYpRW/9xmuUYWGkBBldPewKkmu/zNCGb6KI48zvRxlAhssrpMlLB+MuiuN2U/X7oHA8fWmnFrcbjX0UT4bOM44XO0Wa8Y0Qw0H4DXjY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8BUGrYGi0Q9c07Mb1JJA7Vy7Ww8GzSqA8AY/QKoDHXbjomwIpHKC8ZDPWrEg6aYdx11tm7x4sQh7V0Kg5qOyljJ+rVwHpQX++HuaK7KnBrRjwFu2O1PvFxZ8AizPPuaGhxqiq4JX52FSdjUO9Xf2lYUX56oiCQvrD+yzE3EYWQ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="00c27cb985514fa315b6657daa63ffa4490170ae" Description="" Url=""><as:assemblyIdentity name="CGE.exe" version="1.0.0.0" publicKeyToken="281a6bc003f1e53f" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=StupidCodeGener\StupidCodeGenerator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3J/5QhIwP7B6e16pDphVoqtoCpY=</DigestValue></Reference></SignedInfo><SignatureValue>xxG2sgPaMFzEuP9HDCB7/h0nss7eQoZZW25wgIRudojVJVVYWnYJzV4nmYSfkuyosuN2Su1jhXHbr77/PBAlMr4J0KIn2MfrtoymnZQRUASoVWel4gytwM6e/F1usRWE7TBctS6t2MhcE+fqODWpAeMikqt9neGaKx6n7ofAwG4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8BUGrYGi0Q9c07Mb1JJA7Vy7Ww8GzSqA8AY/QKoDHXbjomwIpHKC8ZDPWrEg6aYdx11tm7x4sQh7V0Kg5qOyljJ+rVwHpQX++HuaK7KnBrRjwFu2O1PvFxZ8AizPPuaGhxqiq4JX52FSdjUO9Xf2lYUX56oiCQvrD+yzE3EYWQ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICJTCCAY6gAwIBAgIQelPUy1G4urxM+OZU5W2nLTANBgkqhkiG9w0BAQUFADBRMU8wTQYDVQQDHkYAUwB0AHUAcABpAGQAQwBvAGQAZQBHAGUAbgBlAHIAXABTAHQAdQBwAGkAZABDAG8AZABlAEcAZQBuAGUAcgBhAHQAbwByMB4XDTEzMDcxOTA4NDc1OFoXDTE0MDcxOTE0NDc1OFowUTFPME0GA1UEAx5GAFMAdAB1AHAAaQBkAEMAbwBkAGUARwBlAG4AZQByAFwAUwB0AHUAcABpAGQAQwBvAGQAZQBHAGUAbgBlAHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA8BUGrYGi0Q9c07Mb1JJA7Vy7Ww8GzSqA8AY/QKoDHXbjomwIpHKC8ZDPWrEg6aYdx11tm7x4sQh7V0Kg5qOyljJ+rVwHpQX++HuaK7KnBrRjwFu2O1PvFxZ8AizPPuaGhxqiq4JX52FSdjUO9Xf2lYUX56oiCQvrD+yzE3EYWQ0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQAr7iE17LkG2Cd/zG/1K/9KJ4YA/06lGJ9T7akEsTy8xkl3uM5N1W69OpIl9Icq6fyAvTKx43K1o6UGrRjDFSzQItpdEf6cyUbP4+tzmP0jXyWu8EglIPacFwVMInwI4kkGhuSI6uQLTZ/qH42W7kfQXgWtoaONmlx64Y/6jviqjg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

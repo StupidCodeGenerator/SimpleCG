@@ -1,0 +1,13 @@
+D:\workspace_c#\CGE\CGE\bin\Debug\CGE.exe
+D:\workspace_c#\CGE\CGE\bin\Debug\CGE.pdb
+D:\workspace_c#\CGE\CGE\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\workspace_c#\CGE\CGE\obj\x86\Debug\CGE.FormMain.resources
+D:\workspace_c#\CGE\CGE\obj\x86\Debug\CGE.Properties.Resources.resources
+D:\workspace_c#\CGE\CGE\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\workspace_c#\CGE\CGE\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\workspace_c#\CGE\CGE\obj\x86\Debug\CGE.exe
+D:\workspace_c#\CGE\CGE\obj\x86\Debug\CGE.pdb
+D:\workspace_c#\CGE\CGE\bin\Debug\CGE.exe.manifest
+D:\workspace_c#\CGE\CGE\bin\Debug\CGE.application
+D:\workspace_c#\CGE\CGE\obj\x86\Debug\CGE.exe.manifest
+D:\workspace_c#\CGE\CGE\obj\x86\Debug\CGE.application
